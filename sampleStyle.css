@@ -1,0 +1,96 @@
+table {
+    width: 70%;
+    border: 1px solid black;
+}
+
+tr,
+td {
+    border: 1px solid black;
+
+}
+
+.tables {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    height: 50px;
+    width: 300px;
+    border-width: 5px;
+    text-align: centre;
+}
+
+.fcontainer {
+    margin-top: 30px;
+    display: flex;
+    border: 2px solid grey;
+    justify-content: center;
+    height: 12vh;
+    width: 30vh;
+    gap: 2px;
+}
+
+.fi3 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.fitemT {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.fitem {
+    background-color: black;
+    width: 16px;
+    margin: 12px;
+}
+
+
+.fitem3 {
+    margin-top: 12px;
+    background-color: black;
+    height: 16px;
+    width: 50px;
+}
+
+.fitem4 {
+    background-color: black;
+    height: 34px;
+    width: 16px;
+}
+
+.iit {
+    margin-top: 10px;
+    padding: 10px;
+    width: 50%;
+    border: 2px solid black;
+    font-size: 5em;
+    font-weight: bolder;
+}
+
+.tablename {
+    color: red;
+}
+
+.table2 {
+    color: red;
+}
+
+.link1 {
+    color: red;
+}
+
+.link2 {
+    color: red;
+}
