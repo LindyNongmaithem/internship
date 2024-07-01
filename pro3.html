@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+        </script>
+            </head>
+            <body>
+     <div class="header">
+        <div class="text">
+            <h1>Department of
+                Computer Science and Engineering
+            </h1>
+            <h3>Indian Institute of Technology Guwahati</h3>
+        </div>
+        <div class="logo">
+
+            <img src="https://event.iitg.ac.in/icann2019/Proceedings_LaTeX/2019/IITG_logo.png" height="150px" />
+        </div>
+    </div>
+
+    <div class="head1">
+        <a href="./project.html" id="home">
+            <img src="homeIcon.png" height=" 25px" />
+        </a>
+        <a href="./hello.html">News & Updates</a>
+        <a href="./pro2.html">Research</a>
+        <a href="./pro1.html">Courses</a> 
+        <a href="./pro3.html" class="active_tab">Students</a>
+        <a href="https://tinyurl.com/y9qs9jl6">MARS Lab Video</a>
+        <a href="https://www.youtube.com/watch?v=4goj-ajnpOQ&list=PLEAYkSg4uSQ3dmkbCah82ek0KJnpz_DxL">NPTEL Courses</a>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">More</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="https://www.iitg.ac.in/johnjose/Brochures/John_shortprofile_2022.pdf">Short CV</a>
+                <a
+                    href="https://scholar.google.co.in/citations?hl=en&user=Zp4X1NsAAAAJ&view_op=list_works&gmla=AJsN-F7q-r-xt0S1lomjmEJCpjYUex81Sya5JSOuiTHKbCnE_T38nCO3eVt_sR7xMfKjTxfa6EzKzsamzNrh25JGepUyu7QDw">Google
+                    Scholar</a>
+                <a href="http://dblp.uni-trier.de/pers/hd/j/Jose:John">DBLP</a>
+                <a href="https://www.scopus.com/authid/detail.uri?authorId=54882122100">Scopus Author Profile</a>
+                <a href="https://iitg.irins.org/profile/128280">IRINS Faculty Profile</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <p>Current Team \Skip to Alumni\</p>
+    <table>
+        <tr>
+            <th>Sl No.</th>
+            <th>Name</th>
+            <th>Designation</th>
+            <th>Other Details</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>
+                <img src="https://www.iitg.ac.in/johnjose/Images/sivakumar.jpg" />
+                <a href="http://www.iitg.ac.in/stud/sivakumar/"> Mr.Shivakumar S.</a>
+            </td>
+            <td> Ph.D Scholar
+
+                Joined - July 2017
+                Part Time - April 2023</td>
+            <td>Research Topic: Energy Efficient Non Volatile Memory Techniques For Many Core Processors
+
+                M.Tech: Cochin University, B.Tech: Cochin University
+                
+                Current Job Affiliation: Senior Engineer, Vayavya Labs, Bangalore.</td>
+        </tr>
+    
+
+</body>
+</html>

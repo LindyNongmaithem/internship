@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<head>
+<link rel="stylesheet" href="project.css">
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+    </head>
+<body>
+    <div class="header">
+        <div class="text">
+            <h1>Department of
+                Computer Science and Engineering
+            </h1>
+            <h3>Indian Institute of Technology Guwahati</h3>
+        </div>
+        <div class="logo">
+
+            <img src="https://event.iitg.ac.in/icann2019/Proceedings_LaTeX/2019/IITG_logo.png" height="150px" />
+        </div>
+    </div>
+
+    <div class="head1">
+        <a href="./project.html" id="home">
+            <img src="homeIcon.png" height=" 25px" />
+        </a>
+        <a href="./hello.html">News & Updates</a>
+        <a href="./pro2.html" class="active_tab">Research</a>
+        <a href="./pro1.html">Courses</a> 
+        <a href="./pro3.html">Students</a>
+        <a href="https://tinyurl.com/y9qs9jl6">MARS Lab Video</a>
+        <a href="https://www.youtube.com/watch?v=4goj-ajnpOQ&list=PLEAYkSg4uSQ3dmkbCah82ek0KJnpz_DxL">NPTEL Courses</a>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">More</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="https://www.iitg.ac.in/johnjose/Brochures/John_shortprofile_2022.pdf">Short CV</a>
+                <a
+                    href="https://scholar.google.co.in/citations?hl=en&user=Zp4X1NsAAAAJ&view_op=list_works&gmla=AJsN-F7q-r-xt0S1lomjmEJCpjYUex81Sya5JSOuiTHKbCnE_T38nCO3eVt_sR7xMfKjTxfa6EzKzsamzNrh25JGepUyu7QDw">Google
+                    Scholar</a>
+                <a href="http://dblp.uni-trier.de/pers/hd/j/Jose:John">DBLP</a>
+                <a href="https://www.scopus.com/authid/detail.uri?authorId=54882122100">Scopus Author Profile</a>
+                <a href="https://iitg.irins.org/profile/128280">IRINS Faculty Profile</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div>
+    <a href="./pro2.html" id="research">Skip To Publications </a>
+    </div>
+
+<p>Funded Research Projects</p>
+
+P8. Design and Development of AI/ML Co-Processor and Post Quantum Cryptography Co-Processor.
+      (An initiative towards Electronics System Design and Manufacturing in North-East Region)
+      Sponsoring Agency : Ministry of Electronics and IT, Govt of India.
+      Duration & Funding : April 2023 - April 2026, Rs. 1999 lakhs. [ongoing]
+      Co-Principal Investigator: Dr. John Jose || Principal Investigator: Dr. Gaurav Trivedi, IIT Guwahati.
+
+P7. High Secure IoT WiFi Connectivity Module with High Secure Open 802.11 SoftMAC.
+      Sponsoring Agency : TIH for IoT and IoE, IIT Bombay.
+      Duration & Funding : March 2023 - March 2024, Rs. 49.99 lakhs. [completed]
+      Collaborator: Dr. John Jose || Project Leader: Dr. Arun Ashok, Silizium Circuits Pvt. Ltd.
+
+P6. Security Enhancement Techniques for Multi-core Processors.
+      Sponsoring Agency : TARE Scheme, SERB, Department of Science & Technology, Govt of India.
+      Duration & Funding : December 2022- December 2025, Rs. 18.30 lakhs. [ongoing]
+      Mentor: Dr. John Jose || Principal Investigator: Prof. Manimeghalai R., PSGiTech, Coimbatore.
+
+P5. Enhancing Security Features of On-Chip Networks in Modern Multicore Processors.
+      Sponsoring Agency : CRG Scheme, SERB, Department of Science & Technology, Govt of India.
+      Duration & Funding : February 2022- February 2025, Rs. 50.72 lakhs. [ongoing]
+      Principal Investigator: Dr. John Jose || Co-Principal Investigator: Prof. Sukumar Nandi
+
+P4. Approximate Computing Techniques for Resource Constrained Edge Devices.
+      Sponsoring Agency : SPARC Scheme, Ministry of HRD, Govt of India.
+      Duration & Funding : March 2019- March 2023, Rs. 77.48 lakhs. [completed]
+      Indian Principal Investigator: Dr. John Jose || Indian Co-Principal Investigator: Dr. T. Venkatesh
+      Foreign Principal Investigator: Dr. Alessandro Cilardo , University of Naples Federico II, Italy.
+      Foreign Co-Principal Investigators: Dr. Amit Kumar Singh , University of Essex, UK ||
+      Dr. Maurizio Palesi & Dr. Davide Patti , University of Catania, Italy
+
+P3. Performance optimization in multicore processors by Network on Chip level prefetch support techniques
+      Sponsoring Agency : Startup Top Up scheme, Research and Development Section, IIT Guwahati.
+      Duration & Funding : June 2018- June 2019, Rs. 10.00 lakhs. [completed]
+      Principal Investigator: Dr. John Jose
+
+P2. Performance and energy optimization in many core processors using dynamic cooperation of cache memory, NoC and DRAM controllers.
+      Sponsoring Agency : ECR Scheme, SERB, Department of Science & Technology, Govt of India.
+      Duration & Funding : September 2016- September 2019, Rs. 19.70 lakhs. [completed]
+      Principal Investigator: Dr. John Jose
+
+P1. Power Efficient Fault Tolerant Techniques for Deflection Routers in Large Mesh on-Chip Interconnection Networks
+      Sponsoring Agency : SuG Scheme, Research and Development Section, IIT Guwahati.
+      Duration & Funding : February 2016- February 2018, Rs. 4.92 lakhs. [completed]
+      Principal Investigator: Dr. John Jose
+
+
+Research Publications || Book Chapters || Journal Publications || Conference Publications || DBLP || Google Scholar ||
+
+
+A. Book Chapters
+
+Sl.No	Year	Tile of the Chapter
+Authors	Book Details [Publisher]
+B1	2021	Dynamic Shielding and Trojan-aware NoC Routing
+Manju Rajan, Abhijit Das, John Jose, Prabhat Mishra	Network-on-Chip Security and Privacy [Springer], January 2021
+
+
+B. Journal Publications
+
+Sl.No	Year	Tile of the paper
+Authors	Journal Details, Month, Pages	Paper Link
+J23	2024	 Enhancing Lifetime and Performance of MLC NVM Caches using Embedded Trace Buffers
+S. Sivakumar, John Jose, and Vijaykrishnan Narayanan	ACM Transactions on Design Automation of Electronic Systems [ACM-TODAES], Vol. 29(3), Article: 58, pp:1-24, 2024.	DOI
+PDF
+J22	2024	 Subnetwork Based Traffic Aware Rerouting for CMesh Bufferless Network-on-Chip
+Rose George Kunthara, Rekha K. James, Simi Zerine Sleeba, John Jose	Journal of Circuits, Systems and Computers [JCSC], 2024.	DOI
+PDF
+J21	2024	 Sec-NoC: A Lightweight Secure Communication System for On-Chip Interconnects
+Syam Sankar, Ruchika Gupta, John Jose, Sukumar Nandi	IEEE Embedded Systems Letters [IEEE-ESL], Vol. 16(2), pp: 214-217, 2024.	DOI
+PDF
+J20	2024	 TROP: TRust-aware OPportunistic Routing in NoC with Hardware Trojans
+Syam Sankar, Ruchika Gupta, John Jose, Sukumar Nandi	ACM Transactions on Design Automation of Electronic Systems [ACM-TODAES], Vol. 29(2), Article: 34, pp:1-25, 2024.	DOI
+PDF
+J19	2023	Secure Routing Framework for Mitigating Time-Delay Trojan Attack in System-on-Chip
+Manju Rajan, Mayanak Choksey, John Jose	Elsevier Journal of Systems Architecture [JSA], Vol. 144, 103006, 2023.	DOI
+PDF
+J18	2023	ELEMENT: Energy-efficient Multi-NoP Architecture for IMC-based 2.5D Accelerator for DNN Training
+Neethu K., Sharin Shahana K., Rekha K. James, John Jose, Sumit Kumar Mandal	IEEE Design & Test [IEEE-DT], Vol. 40(6), pp: 51-63, 2023. presented at NOCS-2023, Hamburg, Germany, September 2023.	DOI
+PDF
+J17	2023	ZPP: A Dynamic Technique to Eliminate Cache Pollution in NoC-based MPSoCs
+Dipika Deb, John Jose	ACM Transactions on Embedded Computing Systems [ACM-TECS], Vol. 22(5), Article: 118, pp: 1-25, 2023. presented at CASES-2023, Hamburg, Germany, September 2023. (Best Paper)	DOI
+PDF
+J16	2023	Self Adaptive Logical Split Cache Techniques for delayed aging of NVM LLC
+Sivakumar S., John Jose	ACM Transactions on Design Automation of Electronic Systems [ACM-TODAES], Vol. 28(6), Article: 97, pp: 1-24, 2023.	DOI
+PDF
+J15	2023	Modelling and Impact Analysis of Antipode Attack in Bufferless On-Chip Networks
+Rose George Kunthara, V. R. Josna, K. Neethu, Rekha K. James, John Jose	Springer SN Computer Science [Springer-SNCS], 4, Article number: 284, 2023.	DOI
+PDF
+J14	2022	Electronic, Wireless, and Photonic Network-on-Chip Security: Challenges and Countermeasures
+Sudeep Pasricha, John Jose, Sujay Deb	IEEE Design & Test [IEEE-DT], Vol. 39(6), pp:90-98, 2022.	DOI
+PDF
+J13	2022	Revising NoC in Future Multi-Core based Consumer Electronics for Performance
+Abhijit Das, Abhishek Kumar, John Jose, Maurizio Palesi	IEEE Consumer Electronics Magazine [IEEE-CEM], Vol:11(3), pp: 79-89, 2022.	DOI
+PDF
+J12	2022	FlitZip: Effective Packet Compression for NoC in MultiProcessor System-on-Chip
+Dipika Deb, Rohit M.K., John Jose	IEEE Transactions on Parallel and Distributed Systems [IEEE-TPDS], Vol 33(1), pp: 117-128, 2022.	DOI
+PDF
+J11	2021	Data Criticality in Multi-Threaded Applications: An Insight for Many-Core Systems
+Abhijit Das, John Jose, Prabhat Mishra	IEEE Transactions on Very Large Scale Integration Systems [IEEE-TVLSI], Vol. 29(9), pp: 1675-1679, Sept. 2021.	DOI
+PDF
+J10	2021	Opportunistic Caching in NoC: Exploring Ways to Reduce Miss Penalty
+Abhijit Das, Abhishek Kumar, John Jose, Maurizio Palesi	IEEE Transactions on Computers [IEEE-TC], Vol. 70(6), pp:892-905, 2021.	DOI
+PDF
+J9	2021	Traffic aware routing in 3D NoC using interleaved asymmetric edge routers
+Rose George Kunthara, Rekha K. James, Simi Zerine Sleeba, John Jose	Elsevier Journal on Nano Communication Networks [NANOCOMNET], Vol. 27, Article: 100334, 2021.	DOI
+PDF
+J8	2021	COPE: Reducing Cache Pollution and Network Contention by Inter-tile Coordinated Prefetching in NoC-based MPSoCs
+Dipika Deb, John Jose, Maurizio Palesi	ACM Transactions on Design Automation of Electronic Systems [ACM-TODAES], Vol. 26(3), Article: 17, 2021.	DOI
+PDF
+J7	2020	Exploiting Data Resilience in Wireless Network-on-Chip Architectures
+Giuseppe Ascia, Vincenzo Catania, Salvatore Monteleone, Maurizio Palesi, Davide Patti,John Jose, Valerio Mario Salerno	ACM Journal on Emerging Technologies in Computing Systems [ACM-JETC], Vol. 16(2), Article: 21, pp: 1-27, 2020.	DOI
+PDF
+J6	2019	ECAP:Energy Efficient CAching for Prefetch Blocks in Tiled Chip Multiprocessors
+Dipika Deb, John Jose, Maurizio Palesi	IET Computers & Digital Techniques [IET-CDT], Vol. 13(6), pp: 417-428, 2019.	DOI
+PDF
+J5	2019	Cost Effective Routing Techniques in 2D Mesh NoC using On-Chip Transmission Lines
+Dipika Deb, John Jose, Shirshendu Das, Hemangee K. Kapoor	Elsevier Journal of Parallel and Distributed Computing [JPDC], Vol.123, pp: 118-129, 2019.	DOI
+PDF
+J4	2018	An Energy Efficient Fault Tolerant Technique for Deflection Routers in 2D Mesh NoCs
+Simi Zerine Sleeba, John Jose, Mini M.G.	IET Computers & Digital Techniques, [IET-CDT] Vol. 12(3), pp:69-79, 2018.	DOI
+PDF
+J3	2017	Impact of deflection history based priority on adaptive deflection router for mesh NoCs
+Elizabeth Isaac, M Rajasekhara Babu, John Jose	Inderscience International Journal of Electronic Government [IJEG], Vol. 13(4), pp:391–407, 2017.	DOI
+PDF
+J2	2017	Deflection Router for Mesh NoC with Multicast Support Mechanism
+Elizabeth Isaac, M Rajasekhara Babu, John Jose	International Journal of Computer Information Systems and Industrial Management Applications, ISSN 2150-7988, [IJCISIM], Vol. 9, pp:087–095, 2017.	DOI
+PDF
+J1	2014	Implementation and Analysis of History Based Output Channel Selection Strategies for Adaptive Routers in Mesh NoCs
+John Jose, Madhu Mutyam	ACM Transactions on Design Automation of Electronic Systems [ACM-TODAES], Vol. 19(4), Article:35, pp:35.11- 35.22, 2014.	DOI
+PDF
+
+C. Referred Conference Publications
+
+Sl.No	Year	Tile of the paper
+Authors	Conference Details, Venue, Pages	Paper Link
+C63	2024	 DRackSim: Simulating CXL-enabled Large-Scale Disaggregated Memory Systems
+Amit Puri, Kartheek Bellamkonda, Kailash Narreddy, John Jose, Tamarapalli Venkatesh, Vijaykrishnan Narayanan	(To appear) Proceedings of the 38th ACM SIGSIM Conference on Principles of Advanced Discrete Simulation [PADS-2024], Atlanta, Georgia, June, 2024.	DOI
+PDF
+C62	2023	PortBlocker: Detection and Mitigation of Hardware Trojan through Re-routing and Bypassing
+Sachin Bagga, Ruchika Gupta, John Jose	Proceedings of the 16th IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip [MCSoC-2023], Singapore, December, 2023.	DOI
+PDF
+C61	2023	Enhancing Anonymity in NoC Communication to Counter Traffic Profiling by Hardware Trojans
+Syam Sankar, Ruchika Gupta, John Jose, Sukumar Nandi	Proceedings of the 16th IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip [MCSoC-2023], Singapore, December, 2023.	DOI
+PDF
+C60	2023	Understanding the Performance Impact of Queue-Based Resource Allocation in Scalable Disaggregated Memory Systems
+Amit Puri, Abir Banerjee, John Jose, Venkatesh Tamarapalli	Proceedings of the 16th IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip [MCSoC-2023], Singapore, December, 2023.	DOI
+PDF
+C59	2023	Modelling and Impact Analysis of Push Back Attack in 3D Bufferless Network on Chip
+Josna V R, Rose George Kunthara, Rekha James, John Jose	Proceedings of the 16th IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip [MCSoC-2023], Singapore, December, 2023.	DOI
+PDF
+C58	2023	Strengthening NoC Security: Leveraging Hybrid Encryption for Data Packet Protection
+Thejaswini P., Sahana A. R., Shankar Singh C., John Jose	Proceedings of the 35th IEEE Region 10 Technical Conference [TENCON-2023], Chiang Mai, Thailand, October, 2023.	DOI
+PDF
+C57	2023	Exploring Trustable Path in Network-on-Chip for Low-Slack Packets
+Syam Sankar, Lissiyas Antony, Ruchika Gupta, John Jose, Sukumar Nandi	Proceedings of the 20th International SoC Conference [ISOCC-2023], Jeju Island, South Korea, October, 2023.	DOI
+PDF
+C56	2023	A Practical Approach For Workload-Aware Data Movement in Disaggregated Memory Systems
+Amit Puri, Kartheek Bellamkonda, Kailash Narreddy, John Jose, Venkatesh Tamarapalli	Proceedings of the 35th IEEE International Symposium on Computer Architecture and High Performance Computing [SBAC-PAD-2023], Porto Alegre, Brazil, October, 2023.	DOI
+PDF
+C55	2023	Improving Lifetime and Performance of Non Volatile Memory Caches
+Sivakumar S., John Jose	Proceedings of 31st IFIP/IEEE International Conference on Very Large Scale Integration [VLSI-SoC-2023], Sharjah, UAE, October,2023.	DOI
+PDF
+C54	2023	Wireless Enabled Chiplet Communication in Deep Neural Network Hardware Accelerators
+Maurizio Palesi, Enrico Russo, Abhijit Das, John Jose	Proceedings of ADOPT workshop held in conjunction with 37th IEEE International Parallel and Distributed Processing Symposium [ADOPT@IPDPSW-2023], St. Petersberg, Florida, USA, May 2023.	DOI
+PDF
+C53	2022	Design and Evaluation of a Rack-Scale Disaggregated Memory Architecture for Data Centers
+Amit Puri, John Jose, T. Venkatesh	Proceedings of 24th IEEE International Conference on High Performance Computing [HPCC-2022], Chengdu, China, December, 2022.	DOI
+PDF
+C52	2022	Impact Analysis of Communication Overhead in NoC based DNN Hardware Accelerators
+Neethu K, Enrico Russo, Rose George Kunthara, Rekha James, John Jose	Proceedings of 19th IEEE India Council Annual International Conference [INDICON-2022], Kochi, India, December, 2022.	DOI
+PDF
+C51	2022	WiBS: A Modular and Scalable Wireless Infrastructure in A Cycle-Accurate NoC Simulator
+Manjari Saha, Abhijit Das, John Jose	Proceedings of 15th International Workshop on Network on Chip Architectures, [NoCArc-2022], Co-located with IEEE/ACM International Symposium on Microarchitecture, Chicago, USA, October 2022.	DOI
+PDF
+C50	2022	Runtime Detection of Time-Delay Security Attack in System-on-Chip
+Manju Rajan, Mayank Choksey, John Jose	Proceedings of 15th International Workshop on Network on Chip Architectures, [NoCArc-2022], Co-located with IEEE/ACM International Symposium on Microarchitecture, Chicago, USA, October 2022.	DOI
+PDF
+C49	2022	Hardware Trojan Mitigation for Securing On-chip Networks from Dead Flit Attacks
+Mohammad Humam Khan, Ruchika Gupta, Vedika J. Kulkarni, John Jose, Sukumar Nandi	Proceedings of 30th IFIP/IEEE International Conference on Very Large Scale Integration [VLSI-SoC-2022], October, Patras, Greece, 2022.	DOI
+PDF
+C48	2022	RIBiT: Reduced Intra-flit Bit Transitions for Bufferless NoC
+Akshay Sarman, Alwin Shaju, Rose George Kunthara, Neethu K, Rekha K. James, John Jose	Proceedings of 30th IFIP/IEEE International Conference on Very Large Scale Integration [VLSI-SoC-2022], October, Patras, Greece, 2022.	DOI
+PDF
+C47	2022	ENDURA : Enhancing Durability of Multi Level Cell STT-RAM based Non Volatile Memory Last Level Caches
+Yogesh Kumar, S Sivakumar, John Jose	Proceedings of 30th IFIP/IEEE International Conference on Very Large Scale Integration [VLSI-SoC-2022], October, Patras, Greece, 2022.	DOI
+PDF
+C46	2022	Designing Data-Aware Network-on-Chip for Performance
+Abhijit Das, John Jose	Proceedings of IEEE Computer Society Annual Symposium on VLSI [ISVLSI-2022], Pafos, Cyprus, July, 2022.	DOI
+PDF
+C45	2022	LOKI: A Hardware Trojan Affecting Multiple Components of an SoC
+Manju R., Abhijit Das, John Jose	Proceedings of IEEE Computer Society Annual Symposium on VLSI [ISVLSI-2022], Pafos, Cyprus, July, 2022.	DOI
+PDF
+C44	2022	Securing On-chip Interconnect against Delay Trojan using Dynamic Adaptive Caging
+Ruchika Gupta, Vedika J. Kulkarni, John Jose, Sukumar Nandi	Proceedings of 32nd ACM Annual Great Lakes Symposium on Very Large Scale Integration [GLSVLSI-2022], Irvine, California, USA, June, 2022.	DOI
+PDF
+C43	2022	DAReS: Deflection Aware Rerouting between Subnetworks in Bufferless On-Chip Networks
+Rose George Kunthara, Rekha K. James, Simi Zerine Sleeba, John Jose	Proceedings of 32nd ACM Annual Great Lakes Symposium on Very Large Scale Integration [GLSVLSI-2022], Irvine, California, USA, June, 2022.	DOI
+PDF
+C42	2022	Enhancing Lifetime of Non Volatile Memory Caches by Write Aware Techniques
+Sivakumar S., Mani Mannampalli, John Jose	Proceedings of 5th International Symposium on Devices, Circuits and Systems [ISDCS-2022], Kolkata, (Hybrid Event), March 2022.	DOI
+PDF
+C41	2022	Modeling and Analysis of Confluence Attack by Hardware Trojan in NoC
+Sachin Bagga, Ruchika Gupta, John Jose	Proceedings of 5th International Symposium on Devices, Circuits and Systems [ISDCS-2022], Kolkata, (Hybrid Event), March 2022.	DOI
+PDF
+C40	2021	Energy Efficient Approximate MACs
+Thejaswini P, John Jose, Sukumar Nandi	Proceedings of 18th IEEE India Council Annual International Conference [INDICON-2021], Guwahati, (Hybrid Event), December 2021.	DOI
+PDF
+C39	2021	Dead Flit Attack on NoC by Hardware Trojan and its Impact Analysis
+Mohammad Humam Khan, Ruchika Gupta, John Jose, Sukumar Nandi	Proceedings of 14th International Workshop on Network on Chip Architectures, Greece [NoCArc-2021], Co-located with IEEE/ACM International Symposium on Microarchitecture, Greece, (Virtual Event), October 2021.	DOI
+PDF
+C38	2021	Packet Header Attack by Hardware Trojan in NoC based TCMP and its Impact Analysis
+Vedika Kulkarni, Manju R, Ruchika Gupta, John Jose, Sukumar Nandi	Proceedings of 15th IEEE/ACM International Symposium on Networks-on-Chip [NOCS-2021], (Virtual Event), October 2021.	DOI
+PDF
+C37	2021	Improving Lifetime of Non-Volatile Memory Caches by Logical Partitioning
+Sivakumar S., T.M. Abdul Khader, John Jose	Proceedings of 31st International Great Lakes Symposium on Very Large Scale Integration [GLSVLSI-2021], (Virtual Event), June, 2021.	DOI
+PDF
+C36	2020	Reducing Off-Chip Miss Penalty by Exploiting Underutilised On-Chip Router Buffers
+Abhijit Das, Abhishek Kumar, John Jose	Proceedings of 38th IEEE International Conference on Computer Design, [ICCD-2020], Hartford, Connecticut, USA, (Virtual Event), October, 2020.	DOI
+PDF
+C35	2020	Router Buffer Caching for Managing Shared Cache Blocks in Tiled Multi-Core Processors
+Joe Augustine, Kanakagiri Raghavendra, John Jose, Madhu Mutyam	Proceedings of 38th IEEE International Conference on Computer Design, [ICCD-2020], Hartford, Connecticut, USA, (Virtual Event), October, 2020.	DOI
+PDF
+C34	2020	SECTAR: Secure NoC using Trojan Aware Routing
+Manju R, Abhijit Das, John Jose and Prabhat Mishra	Proceedings of 14th IEEE/ACM International Symposium on Networks-on-Chip [NOCS-2020], Hamburg, Germany, (Virtual Event), September 2020.	DOI
+PDF
+C33	2020	Exploiting On-Chip Routers to Store Dirty Cache Blocks in Tiled Chip Multi-Processors
+Abhijit Das, Abhishek Kumar, John Jose, Maurizio Palesi	Proceedings of IEEE Computer Society Annual Symposium on VLSI [ISVLSI-2020], Limassol, Cyprus, (Virtual Event), July 2020.	DOI
+PDF
+C32	2020	Improving Inference Latency and Energy of Network-on-Chip based Convolutional Neural Networks through Weights Compression
+Giuseppe Ascia, Vincenzo Catania, John Jose, Salvatore Monteleone, Maurizio Palesi, and Davide Patti	Proceedings of IEEE International Parallel and Distributed Processing Symposium Workshops [IPDPSW-2020], New Orleans, Louisiana USA, (Virtual Event), May 2020.	DOI
+PDF
+C31	2019	Networks-on-Chip based Deep Neural Networks Accelerators for IoT Edge Devices
+Maurizio Palesi, Giuseppe Ascia, Davide Patti, Salvatore Monteleone, Vincenzo Catania, John Jose	Proceedings of the Sixth IEEE International Conference on Internet of Things: Systems, Management and Security [IOTSMS-2019], Granada, Spain, October, 2019.	DOI
+PDF
+C30	2019	DoLaR: Double Layer Routing for Bufferless Mesh Network-on-Chip
+Rose George Kunthara, Neethu K, Rekha K James, Simi Zerine Sleeba, John Jose	Proceedings of the 31st IEEE Region 10 Technical Conference [TENCON-2019], Kochi, India, October, 2019.	DOI
+PDF
+C29	2019	Asymmetric Routing in 3D-NoC using Interleaved Edge Routers
+Rose George Kunthara, Rekha K James, Simi Zerine Sleeba, John Jose	Proceedings of 12th International Workshop on Network on Chip Architectures [NoCArc-2019], Co-located with IEEE/ACM International Symposium on Microarchitecture, Columbus, Ohio, USA, October, 2019.	DOI
+PDF
+C28	2019	Analyzing Networks-on-Chip based Deep Neural Networks
+Maurizio Palesi, Giuseppe Ascia, Davide Patti, Salvatore Monteleone, Vincenzo Catania, John Jose	Proceedings of the 13th IEEE/ACM International Symposium on Networks-on-Chip [NOCS-2019], Co-located with Embedded Systems Week, New York, USA, October, 2019.	DOI
+PDF
+C27	2019	2L-2D Routing for Buffered Mesh Network-on-Chip
+Rose George Kunthara, Neethu K, Rekha K James, Simi Zerine Sleeba, Tripti S Warrier, John Jose	Proceedings of the 23rd International Symposium on VLSI Design and Test [VDAT-2019], Indore, India, June, 2019.	DOI
+PDF
+C26	2019	Performance Enhancement of Caches in TCMPs using Near Vicinity Prefetcher
+Dipika Deb, John Jose, Maurizio Palesi	Proceedings of 32nd IEEE International Conference on VLSI Design [VLSID-2019], New Delhi, India, January, 2019, pp: 13-18.	DOI
+PDF
+C25	2018	ReDC: Reduced Deflection CHIPPER Router for Bufferless NoCs
+Rose George Kunthara, Rekha K James, Simi Zerine Sleeba, John Jose	Proceedings of IEEE 8th International Symposium on Embedded Computing and System Design [ISED-2018], Kochi, India, December, 2018, pp: 204-209.	DOI
+PDF
+C24	2018	Approximate Wireless Networks-on-Chip
+Giuseppe Ascia, Vincenzo Catania, Salvatore Monteleone, Maurizio Palesi, Davide Patti, John Jose	Proceedings of the 33rd International Conference on Design of Circuits and Integrated Systems [DCIS-2018], Lyon, France, November, 2018, pp: 1-6.	DOI
+PDF
+C23	2018	Traffic Aware Deflection Rerouting Mechanism for Mesh Network on Chip
+Simi Zerine Sleeba, John Jose, Maurizio Palesi, Rekha K. James, Mini Nair	Proceedings of the 26th IFIP/IEEE International Conference on Very Large Scale Integration [VLSI-SoC-2018], Verona, Italy, October, 2018, pp: 25-30.	DOI
+PDF
+C22	2018	Critical Packet Prioritisation by Slack-Aware Re-routing in On-Chip Networks
+Abhijit Das, Sarath Babu, John Jose, Sangeetha Jose, Maurizio Palesi	Proceedings of the 12th IEEE/ACM International Symposium on Networks-on-Chip [NOCS-2018], Co-located with Embedded Systems Week, Torino, Italy, October, 2018, pp: 1-8.	DOI
+PDF
+C21	2018	Source Hotspot Management in a Mesh Network on Chip
+Sujay B Shaunak, Shashank S Rao, Ajay S, Satya Sai Krishna Mohan G, Krutthika H K, Ananda Y R, John Jose	Proceedings of the 22nd International Symposium on VLSI Design and Test [VDAT-2018], Madurai, India, June, 2018.	DOI
+PDF
+C20	2018	Performance Enhancement of NoCs using Single Cycle Defection Routers and Adaptive Priority Schemes
+Midhula K.S, Sarath Babu, John Jose, Sangeetha Jose	Proceedings of the 22nd International Symposium on VLSI Design and Test [VDAT-2018], Madurai, India, June, 2018.	DOI
+PDF
+C19	2018	Implementation of a Novel Fault Tolerant Routing Technique for Mesh Network on Chip
+Akshay B P, Ganesh K M, Thippeswamy D R, Vishnu S Bhat, Anitha Vijayakumar, Ananda Y R, John Jose	Proceedings of the 22nd International Symposium on VLSI Design and Test [VDAT-2018], Madurai, India, June, 2018.	DOI
+PDF
+C18	2018	Improving Energy Consumption of NoC based Architectures through Approximate Communication
+Giuseppe Ascia, Vincenzo Catania, Salvatore Monteleone, Maurizio Palesi, Davide Patti, John Jose	Proceedings of the 7th Mediterranean Conference on Embedded Computing, [MECO-2018], Budva, Montenegro, June 2018, pp:33-36.	DOI
+PDF
+C17	2018	An Adaptive Deflection Router with Dual Injection and Ejection Units for Mesh NoCs
+John Jose, Abhijit Das	Proceedings of the 31st IEEE International Conference on VLSI Design [VLSID-2018], Pune, India, January 2018, pp:374-379.	DOI
+PDF
+C16	2017	Implementation and Analysis of Hotspot Mitigation in Mesh NoCs by Cost-Effective Deflection Routing Technique
+Reshma Raj R. S., Abhijit Das, John Jose	Proceedings of the 25th IFIP/IEEE International Conference on Very Large Scale Integration [VLSI-SoC-2017], Abu Dhabi, United Arab Emirates, October, 2017, pp:49-54.	DOI
+PDF
+C15	2017	Implementation and Analysis of Adaptive Packet Throttling in Mesh NoCs
+Aswathy N. S., Reshma Raj R. S., John Jose, Josna V. R.	Proceedings of the 7th International Conference on Advances in Computing and Communications [ICACC-2017], Kochi, India, August, 2017, Elsevier, Procedia Computer Science, Vol: 115, pp:626-634.	DOI
+PDF
+C14	2017	Adaptive Packet Throttling Technique for Congestion Management in Mesh NoCs
+Aswathy N. S., Reshma Raj R. S., Abhijit Das, John Jose, Josna V. R.	Proceedings of the 21st International Symposium on VLSI Design and Test [VDAT-2017], Roorkee, India, June, 2017, pp:337-344.	DOI
+PDF
+C13	2016	A Novel Energy Efficient Multicasting Approach For Mesh NoCs
+Arun M.R., Jisha P.Abraham, John Jose	Proceedings of the 6th International Conference on Advances in Computing and Communications [ICACC-2016], Kochi, India, September, 2016, Elsevier, Procedia Computer Science, Volume-93, pp:283–291.	DOI
+PDF
+C12	2015	Dynamic Migratory Selection Strategy for Adaptive Routing In Mesh NoCs
+John Jose, Joe Augustine, Sijin Sebastian	Proceedings of the 23rd IFIP/IEEE International Conference on Very Large Scale Integration [VLSI-SoC-2015], Daejeon, South Korea, October 2015, pp:343-348	DOI
+PDF
+C11	2015	HiPAD: High Performance Adaptive Deflection Router for On Chip Mesh Networks
+Simi Zerine Sleeba, John Jose, Mini M.G.	Proceedings of the 5th International Conference on Advances in Computing and Communications [ICACC-2015], Kochi, India, September, 2015, pp:16-19.	DOI
+PDF
+C10	2015	Smart Port Allocation in Adaptive NoC Routers
+Reenu James, John Jose, Jobin K. Antony	Proceedings of the 28th IEEE International Conference on VLSI Design [VLSID-2015], Bangalore, India , January, 2015, pp:475-480.	DOI
+PDF
+C9	2014	An Energy Efficient Load Balancing Selection Strategy for Adaptive NoC Routers
+John Jose, Bivil Jacob, Hashim Kamal	Proceedings of the 7th ACM International Workshop on Network on Chip Architectures [NoCArc-2014], collocated with 47th IEEE Symposium on Microarchitecture, Cambridge, United Kingdom, December, 2014, pp 31-36.	DOI
+PDF
+C8	2014	Study and Analysis of Various Task Scheduling Algorithms in the Cloud Computing Environment
+Teena Mathew, Chandrasekaran K, John Jose	Proceedings of the 3rd International Conference on Advances in Computing, Communications and Informatics [ICACCI-2014], Noida, India, September, 2014, pp: 658-664.	DOI
+PDF
+C7	2014	A Novel Energy Efficient Source Routing for Mesh NoCs
+Meril Rani John, Reenu James, John Jose, Elizabeth Isaac, Jobin K. Antony	Proceedings of the 4th International Conference on Advances in Computing and Communications [ICACC-2014], Kochi, India, August, 2014, pp: 125-129.	DOI
+PDF
+C6	2014	WeDBless : Weighted Deflection Bufferless Router for Mesh NoCs
+Simi Zerine Sleeba, John Jose, Mini M.G.	Proceedings of the 24th IEEE International Great Lakes Symposium on Very Large Scale Integration [GLSVLSI-2014], Houston, USA, May, 2014, pp:77-78.	DOI
+PDF
+C5	2014	Minimally Bufferred Single-Cycle Deflection Router for Mesh NoCs
+Gananeswara Rao, John Jose, Rachana Radhkrishnan, Madhu Mutyam	Proceedings of the 18th IEEE/ACM International Conference on Design, Automation and Test in Europe [DATE-2014], Dresden, Germany, March 2014, Article No:310	DOI
+PDF
+C4	2013	SLIDER: Smart Late Injection DEflection Router for Mesh NoCs
+Bhawna Nayak, John Jose, Madhu Mutyam	Proceedings of the 31st IEEE International Conference on Computer Design [ICCD-2013], Asheville, USA, October, 2013, pp: 377-383.	DOI
+PDF
+C3	2013	DeBAR : Deflection Based Adaptive Router with Minimal Buffering
+John Jose, Bhawna Nayak, Kranthikumar, Madhu Mutyam	Proceedings of the 17th IEEE/ACM International Conference on Design, Automation and Test in Europe [DATE-2013], Grenoble, France, March, 2013, pp:1583-1588.	DOI
+PDF
+C2	2012	TRACKER: A Low Overhead Adaptive NoC Router with Load Balancing Selection Strategy
+John Jose, K.V. Mahathi, J.Shiva Shankar, Madhu Mutyam	Proceedings of the 30th IEEE International Conference on Computer Aided Design [ICCAD-2012], SanJose, USA, November, 2012, pp:564-568.	DOI
+PDF
+C1	2011	BOFAR: Buffer Occupancy Factor based Adaptive Router for Mesh NoCs
+John Jose, J.Shiva Shankar, K.V. Mahathi, D. Kranthikumar, Madhu Mutyam	Proceedings of 4th ACM International Workshop on Network on Chip Architectures [NoCArc-2011], collocated with 44th IEEE/ACM Symposium on Microarchitecture, Porto Alegre, Brazil, December, 2011, pp:23-28.	DOI
+PDF
+    
+</body>
+</html>

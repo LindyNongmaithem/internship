@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="text">
+            <h1>Department of
+                Computer Science and Engineering
+            </h1>
+            <h3>Indian Institute of Technology Guwahati</h3>
+        </div>
+        <div class="logo">
+
+            <img src="https://event.iitg.ac.in/icann2019/Proceedings_LaTeX/2019/IITG_logo.png" height="150px" />
+        </div>
+    </div>
+
+    <div class="head1">
+        <a href="./project.html" id="home">
+            <img src="homeIcon.png" height=" 25px" />
+        </a>
+        <a href="./hello.html">News & Updates</a>
+        <a href="./pro2.html">Research</a>
+        <a href="./pro1.html" class="active_tab">Courses</a> 
+        <a href="./pro3.html">Students</a>
+        <a href="https://tinyurl.com/y9qs9jl6">MARS Lab Video</a>
+        <a href="https://www.youtube.com/watch?v=4goj-ajnpOQ&list=PLEAYkSg4uSQ3dmkbCah82ek0KJnpz_DxL">NPTEL Courses</a>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">More</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="https://www.iitg.ac.in/johnjose/Brochures/John_shortprofile_2022.pdf">Short CV</a>
+                <a
+                    href="https://scholar.google.co.in/citations?hl=en&user=Zp4X1NsAAAAJ&view_op=list_works&gmla=AJsN-F7q-r-xt0S1lomjmEJCpjYUex81Sya5JSOuiTHKbCnE_T38nCO3eVt_sR7xMfKjTxfa6EzKzsamzNrh25JGepUyu7QDw">Google
+                    Scholar</a>
+                <a href="http://dblp.uni-trier.de/pers/hd/j/Jose:John">DBLP</a>
+                <a href="https://www.scopus.com/authid/detail.uri?authorId=54882122100">Scopus Author Profile</a>
+                <a href="https://iitg.irins.org/profile/128280">IRINS Faculty Profile</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <p class="p1">Regular Academic Courses Offered in CSE Department, IIT Guwahati </p>
+    <table>
+        <tr>
+            <th>Year</th>
+            <th>Semester</th>
+            <th>Course Number / Course Title</th>
+        </tr>
+
+        <tr>
+            <td>2024</td>
+            <td>January-April</td>
+            <td>CS 101 - Introduction to Computing [B.Tech, 2nd semester core course for all branches]</td>
+        </tr>
+
+        <tr>
+            <td>2023</td>
+            <td>July - November</td>
+            <td>CS 535 - Hardware Security [CSE department elective]</td>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td>January-April</td>
+            <td>CS 223 - Computer Organization & Architecture [B.Tech, 4th semester core course]</td>
+        </tr>
+
+        <tr>
+            <td>2023</td>
+            <td>January-April</td>
+            <td>CS 350M - Computer Systems [B.Tech, 6th semester minor course]</td>
+        </tr>
+
+        <tr>
+            <td>2022</td>
+            <td>July-November</td>
+            <td>CS 343 - Operating Systems [B.Tech, 5th semester core course]</td>
+        </tr>
+
+        <tr>
+            <td>2022</td>
+            <td>January-April</td>
+            <td>CS 223 - Computer Organization & Architecture [B.Tech, 4th semester core course]</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>July-November</td>
+            <td>CS 343 - Operating Systems [B.Tech, 5th semester core course]</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>January-April</td>
+            <td>CS 223 - Computer Organization & Architecture [B.Tech, 4th semester core course]</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>July - November</td>
+            <td>CS 343 - Operating Systems [B.Tech, 5th semester core course]</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>January-June</td>
+            <td>CS 223 - Computer Organization & Architecture [B.Tech, 4th semester core course]</td>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>July - November</td>
+            <td>CS 322M - Digital Logic and Computer Architecture [B.Tech, 5th semester minor course]</td>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>January-April</td>
+            <td>CS 222 - Computer Organization & Architecture [B.Tech, 4th semester core course]</td>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>January-April</td>
+            <td>CS 350M - Computer Systems [B.Tech, 6th semester minor course]</td>
+        </tr>
+        <tr>
+            <td>2018</td>
+            <td>July - November</td>
+            <td>CS 523 - Advanced Computer Architecture [CSE department elective]</td>
+        </tr>
+        <tr>
+            <td>2018</td>
+            <td>January - April</td>
+            <td>CS 558 - Systems Lab [M.Tech, 2nd semester core course]</td>
+        </tr>
+        <tr>
+            <td>2017</td>
+            <td>July - November</td>
+            <td>CS 523 - Advanced Computer Architecture [CSE department elective]</td>
+        </tr>
+        <tr>
+            <td>2017</td>
+            <td>July - November</td>
+            <td>CS 343 - Data Communication [B.Tech, 5th semester core course]</td>
+        </tr>
+        <tr>
+            <td>2017</td>
+            <td>January - April</td>
+            <td>CS 558 - Systems Lab [M.Tech, 2nd semester core course]</td>
+        </tr>
+        <tr>
+            <td>2016</td>
+            <td>July - November</td>
+            <td>CS 523 - Advanced Computer Architecture [CSE department elective]</td>
+        </tr>
+        <tr>
+            <td>2016</td>
+            <td>January - April</td>
+            <td>CS 348 - Computer Networks [B.Tech, 6th semester core course]</td>
+        </tr>
+        <tr>
+            <td>2016</td>
+            <td>January - April</td>
+            <td>CS 349 - Networks Lab [B.Tech, 6th semester core course]</td>
+        </tr>
+        <tr>
+            <td>2015</td>
+            <td>July - November</td>
+            <td>CS 548 - Computer Systems [M.Tech, 1st semester core course]</td>
+        </tr>
+    </table>
+
+    <p class="p1">Workshops and Other Courses Organized/Coordinated at IIT Guwahati</p>
+    <table>
+        <tr>
+            <th>Year</th>
+            <th>Course Details</th>
+            <th>Dates</th>
+            <th>Resource Link</th>
+        </tr>
+   
+    2024 SERB-INAE sponsored Workshop on Pedagogy Training for Teaching and Research Excellence 15-16 March, 2024
+    Workshop
+    Page
+    2023 MHRD sponsored NPTEL-Online Certification Course in Multicore Computer Architecture 24 July - 13 October, 2023
+    Course Page
+    YouTube Playlist
+    2023 IEEE Guwahati Subsection Conference (GCON-2023) 23 - 25, June, 2023. Event Page
+    2022 MHRD sponsored SPARC International Workshop on Scaling Blockchains: From Bitcoin to the Lightning Network 23 -
+    25,
+    August, 2022. Course Page
+    2022 ISEA Virtual Presentation Conclave 23 June, 2022. Event Page
+    2022 MHRD sponsored SPARC International Online Workshop on Intelligent Multi-Core Systems 22 & 24, February, 2022.
+    Course Page
+    2021 MHRD sponsored SPARC International Online Workshop on Blockchain Technologies and Decentralized Environments 22
+    &
+    29, July, 2021. Course Page
+    2021 MHRD sponsored SPARC International Online Workshop on Design Principles for Next Generation Embedded Computing
+    Systems 5-8 July & 12-13 July, 2021. Course Page
+    2021 MHRD sponsored SPARC International Online Workshop on Domain Specific Accelerators 18, 25 June & 2, 9 July,
+    2021
+    Course Page
+    2021 MHRD sponsored SPARC International Online Workshop on Embedded System Technologies for Deep Learning and
+    Approximate Computing 29 - 30 May & 5 - 6 June, 2021 Course Page
+    2021 MHRD sponsored NPTEL-Online Certification Course in Advanced Computer Architecture 15 February - 20 April, 2021
+    Course Page
+    2020 MHRD sponsored NPTEL-Online Certification Course in Multicore Computer Architecture-Storage & Interconnects 24
+    February - 17 April, 2020 Course Page
+    2019 MHRD sponsored NPTEL-Online Certification Course in Advanced Computer Architecture 29 July - 27 September, 2019
+    Course Page
+    2019 TEQIP-III sponsored Pedagogy Workshop on Effective Teaching 3 - 7 June, 2019 Course Page
+    2019 ISEA Project Phase II Sponsored Workshop on Advances in Hardware Security 24 - 29 May, 2019 Course Page
+    2018 TEQIP-III sponsored short term course in Advanced Computer Architecture 10 - 14, December, 2018 Course Page
+    2018 MHRD sponsored NPTEL-Online Certification Course in Multicore Computer Architecture-Storage & Interconnects 6
+    August - 28 September, 2018 Course Page
+    2017 MHRD sponsored Ishan Vikas Program (Institute Coordinator) 5 - 15 December, 2017 Home page
+    2017 MHRD sponsored GIAN course in Scalable On chip Interconnects for Many Core Systems 24 - 30 May, 2017 Course
+    Page
+    2017 DeitY-E&ICT Academy Faculty Development Program in Digital VLSI 28 April - 12 May, 2017 Brochure
+    2016 MHRD sponsored Ishan Vikas Program (Institute Coordinator) 1 - 11 December, 2016 Home page
+    2016 TEQIP-II sponsored short term course in Recent Advances in Computer Architecture 30 May - 3 June, 2016 Course
+    Page
+
+
+</body>
+
+</html>

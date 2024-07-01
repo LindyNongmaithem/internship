@@ -1,0 +1,321 @@
+body {
+
+    /*background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fc71812d-fde7-424a-ae15-bbde7a6add7a/d764g08-021aa1d9-8ef2-44de-88f7-7481889638ac.jpg/v1/fit/w_828,h_518,q_70,strp/favourite_anime_game_wallpaper_by_cyropath_d764g08-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTIwMCIsInBhdGgiOiJcL2ZcL2ZjNzE4MTJkLWZkZTctNDI0YS1hZTE1LWJiZGU3YTZhZGQ3YVwvZDc2NGcwOC0wMjFhYTFkOS04ZWYyLTQ0ZGUtODhmNy03NDgxODg5NjM4YWMuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.PsXJmXNPz0w5tySBcOI0FIpN8TIKFHL-jdJPDG6k9JI'); */
+     background-color: rgb(68, 77, 86);
+}
+
+
+
+.first {
+    width: 1000px;
+    border: 15px bisque;
+    padding: 50px;
+    margin: 20px;
+    background-color: bisque;
+    height: auto;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+    background-image: linear-gradient(to bottom right, red, black);
+    border-radius: 100px;
+    position: relative;
+    left: 30px;
+    right: 30px;
+}
+
+.first2 {
+    border-radius: 12px;
+   /* border-color: aliceblue;*/
+    border: 0px;
+  
+}
+
+.first1 {
+    word-spacing: 20px;
+     text-align: center;
+
+}
+
+.second {
+    width: 1000px;
+    border: 15px bisque;
+    padding: 50px;
+    margin: 20px;
+    background-color: bisque;
+    height: auto;
+    background-image: url('https://w0.peakpx.com/wallpaper/669/329/HD-wallpaper-stickerbomb-black-dark-dj-grey-music-sayings.jpg');
+    border-radius: 100px;
+    position: relative;
+    left: 30px;
+    right: 30px;
+}
+
+.first2 {
+    background-color: red;
+    color: white;
+}
+
+.second1 {
+    height: 200px;
+    width: 200px;
+    flex: 1;
+    margin: 15px;
+    padding: 40px;
+    border: 0px solid #ccc;
+    border-radius: 25%;
+}
+
+.second2 {
+    height: 200px;
+    width: 100px;
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 0px solid #ccc;
+    border-radius: 25%;
+}
+
+.second3 {
+    height: 200px;
+    width: 200px;
+    flex: 1;
+    margin: 15px;
+    padding: 40px;
+    border: 0px solid #ccc;
+    border-radius: 25%;
+}
+
+.third {
+    width: 1000px;
+    border: 15px bisque;
+    padding: 50px;
+    margin: 20px;
+    background-color: bisque;
+    height: auto;
+    background-image: url('https://assets-prd.ignimgs.com/2024/05/14/demon-slayer-premiere-review-blogroll-1715702910818.jpeg?width=1920');
+    border-radius: 100px;
+    position: relative;
+    left: 30px;
+    right: 30px;
+}
+
+.third1 {
+    background-color: darkorange;
+    color: white;
+}
+
+/*.third2 {
+        width: 300px;
+        height: 100px;
+        background: orangered;
+        overflow: hidden;
+
+} */
+
+.square {
+    height: 120px;
+    width: 1000px;
+    background-color: grey;
+}
+
+/*.triangle-right {
+	width: 100px;
+	height: 100px;
+	border-top: 25px solid transparent;
+	border-left: 50px orangered;
+	border-bottom: 25px solid transparent;
+}*/
+
+.second4 {
+    /*display: flex;
+    align-items: right;
+    padding: 10px;
+    border-collapse: separate;
+    border-spacing: 15px;*/
+    display: flex;
+    border: 0px solid black;
+    padding: 5px;
+    border-spacing: 5px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.second4 >img:hover{
+  
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.third3 {
+    height: 200px;
+    width: 400px;
+    display: flex;
+    
+}
+
+.third1 {
+    border-radius: 12px;
+    /*border-color: aliceblue;*/
+    border: 0px;
+    background-color: lightcoral;
+}
+
+.color {
+    color: whitesmoke;
+}
+.color1 {
+    color: whitesmoke;
+}
+
+.sq1 {
+    color: black;
+    word-spacing: 15px;
+   font-family:'Courier New', Courier, monospace;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    
+}
+
+  .third4 {
+    color: whitesmoke;
+  }
+
+  .last {
+    color: whitesmoke;
+    word-spacing: 3px;
+  }
+
+
+  .film {
+    word-spacing: 7px;
+    color: whitesmoke;
+  }
+
+  .head {
+    text-align: c;
+  }
+
+  .link{
+    color: whitesmoke;
+  }
+
+  .color {
+    word-spacing: 4px;;
+  }
+
+  .anime {
+    border-top: 2px solid #eee;
+    font-size: 23px;
+    padding: 10px;
+    text-align: center;
+  }
+ .nav-wrap { 
+    margin: 40px auto;  
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-top: 2px solid white; 
+    border-bottom: 1px solid white; 
+  
+}
+#example-one {
+     margin: 0 auto; 
+     list-style: none; 
+     position: relative; 
+     width: 980px; 
+    
+    }
+#example-one li { 
+    display: inline; 
+  
+}
+#example-one li a { 
+    color: black; 
+    font-size: 14px; 
+    display: block; 
+    float: left; 
+    padding: 6px 10px 4px 10px; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+}
+#example-one li a:hover { 
+    color: white; 
+}
+#magic-line { 
+    position: absolute; 
+    bottom: -2px; left: 0; 
+    width: 100px; 
+    height: 2px; 
+    background: #fe4902; 
+} 
+
+.sign1 {
+    background-color: red;
+    color: white;
+    border-radius: 12px;
+    border: 0px;
+  }
+
+  .neonText {
+    animation: flicker 1.5s infinite alternate;
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 2.4rem;    
+  }
+
+  @keyframes flicker {
+      
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa,
+        0 0 150px #0fa;
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
+  
+
+    
+  h2 {
+   font-size: 1.8rem;
+  }
+  .container {
+    margin-top: 20px;
+  }
+  
+ /* body {
+    font-size: 18px;
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: #010a01;
+  } */ 
+  
+  h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
+  .search {
+    width: 30px;
+    height: 30px;
+    align-items: start;
+  }
+
+ 
