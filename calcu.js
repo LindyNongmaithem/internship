@@ -7,7 +7,6 @@ function calculate() {
     let display = document.getElementById("display");
     let expression = display.value;
     let result;
- 
     try {
         // Convert trigonometric function inputs from degrees to radians
         expression = expression.replace(/sin\(/g, 'sin(' + Math.PI / 180 + '*');

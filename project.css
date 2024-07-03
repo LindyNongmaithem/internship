@@ -1,24 +1,25 @@
-
 .borderDiv {
-    /* width: 1000px; */
-    border: 5px solid black;
-    padding: 15px;
-    margin: 10px;
+  /* width: 1000px; */
+  border: 2px solid black;
+  padding: 15px;
+  margin: 10px;
 }
+
 .head1 {
-    color: black;
-    /* width: 95dvw;  */
-    height: 40px;
-    border: 2px white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
-    padding: 12px;
-   background-color: rgb(211, 199, 177);
-    font-weight: bold;
-   /* background-image: linear-gradient(to bottom right, bisque, brown);*/
+  color: black;
+  /* width: 95dvw;  */
+  height: 40px;
+  border: 2px white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 12px;
+  background-color: #CADCFC;
+  font-weight: bold;
+  /* background-image: linear-gradient(to bottom right, bisque, brown);*/
 }
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -26,7 +27,7 @@
   border: 1px bisque;
   padding: 10px;
   /*background-color: #FFF2D7;*/
-  background-image: linear-gradient(to bottom right, rgb(34, 194, 239), white);
+  background-image: linear-gradient(to bottom right, #00246B, #CADCFC, #00246B, #CADCFC);
 }
 
 
@@ -34,75 +35,84 @@
   flex-grow: 1;
   text-align: left;
   margin-right: 10px;
+  color: #00246B;
 }
 
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: #D8AE7E;
-    color: white;
-    padding: 5px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    border-radius: 12px;
-  }
-  
-  /* Dropdown button on hover & focus */
-  .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
-  }
-  
-  /* The container <div> - needed to position the dropdown content  */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 60px;
-    box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.2); 
-    z-index: 3;
-  }
-  
-  /* Links inside the dropdown  */
-  .dropdown-content a {
-    padding: 5px 6px;
-    text-decoration: none;
-    display: block;
-    width: 100px;
-  }
-  
-  /* Change color of dropdown links on hover  */
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button)  */
-  .show {display:block;}
-
-
-  .container {
-    display: flex;
-    border: 1px brown;
+  background-color: #00246B;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
 }
-.profileImg{
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content  */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 60px;
+  box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+}
+
+/* Links inside the dropdown  */
+.dropdown-content a {
+  padding: 5px 6px;
+  text-decoration: none;
+  display: block;
+  width: 100px;
+}
+
+/* Change color of dropdown links on hover  */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button)  */
+.show {
+  display: block;
+}
+
+
+.container {
+  display: flex;
+  border: 1px brown;
+}
+
+.profileImg {
   width: 25%;
   /* background-color: green; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .box {
-    flex: 1;
-    margin: 10px;
-    padding: 3px;
-    border: 2px white;
-    height: 350px;
+  flex: 1;
+  margin: 10px;
+  padding: 3px;
+  border: 2px white;
+  height: 350px;
 
 }
+
 .box1 {
   height: 300px;
   width: 250px;
@@ -114,16 +124,18 @@
   /*height: 300px;*/
   padding: 10px;
 }
-.profile{
+
+.profile {
   width: 40%;
 }
- 
+
 .announce {
   /* display: flex; */
-    border: 1px solid black;
-    height: 300px;
-    /* background-color: red; */
+  border: 1px solid black;
+  height: 300px;
+  /* background-color: red; */
 }
+
 .course {
   /* flex: 1; */
   margin: 10px;
@@ -131,41 +143,43 @@
   border: 2px black;
   height: 80%;
   overflow-y: scroll;
- }
+}
 
- .academic {
+.academic {
   display: flex;
   border: 1px solid black;
- }
+}
 
- .achv {
-  background-color: rgb(213, 208, 208);
+.achv {
+  background-color: #eff2f7;
   color: black;
   border: 0px solid black;
   font-size: 16px;
- }
+}
 
- .proff {
-  background-color: rgb(213, 208, 208);
+.proff {
+  background-color: #eff2f7;
   color: black;
   border: 0px solid black;
   font-size: 16px;
- }
- .news {
-  color:red;
- }
- .newsHead{
+}
+
+.news {
+  color: red;
+}
+
+.newsHead {
   display: flex;
   justify-content: center;
- }
+}
 
- .clickBtn {
+.clickBtn {
   border-radius: 12px;
   border: 0px;
   background-color: rgb(232, 187, 168);
- }
+}
 
- /*#navbar {
+/*#navbar {
   overflow: hidden;
   background-color: #333;
 }
@@ -198,13 +212,17 @@
 .profile1 {
   width: 700px;
 }
+.psuedo-h3{
+  font-size: 20px;
+}
+
 .box {
   display: grid;
   width: 220px;
   overflow-x: hidden;
 }
 
-.box > img {
+.box>img {
   grid-area: 1/1;
   width: 100%;
   aspect-ratio: 1;
@@ -214,18 +232,51 @@
   animation: slide 6s infinite;
 }
 
-.box > img:nth-child(2) { animation-delay: -2s; } 
-.box> img:nth-child(3) { animation-delay: -4s; }
+.box>img:nth-child(2) {
+  animation-delay: -2s;
+}
+
+.box>img:nth-child(3) {
+  animation-delay: -4s;
+}
+
 
 
 @keyframes slide {
-  0%     {transform: translateX(0%)  ;z-index: 2;}
-  16.66% {transform: translateX(120%);z-index: 2;}
-  16.67% {transform: translateX(120%);z-index: 1;} 
-  33.34% {transform: translateX(0%)  ;z-index: 1;}
-  66.33% {transform: translateX(0%)  ;z-index: 1;}
-  66.34% {transform: translateX(0%)  ;z-index: 2;} 
-  100%   {transform: translateX(0%)  ;z-index: 2;}  
+  0% {
+    transform: translateX(0%);
+    z-index: 2;
+  }
+
+  16.66% {
+    transform: translateX(120%);
+    z-index: 2;
+  }
+
+  16.67% {
+    transform: translateX(120%);
+    z-index: 1;
+  }
+
+  33.34% {
+    transform: translateX(0%);
+    z-index: 1;
+  }
+
+  66.33% {
+    transform: translateX(0%);
+    z-index: 1;
+  }
+
+  66.34% {
+    transform: translateX(0%);
+    z-index: 2;
+  }
+
+  100% {
+    transform: translateX(0%);
+    z-index: 2;
+  }
 }
 
 .p1 {
@@ -233,7 +284,7 @@
   font-size: 18px;
 }
 
-.active_tab{
+.active_tab {
   background-color: #f2f2f2;
   border-radius: 5px;
   padding-inline: 20px;
@@ -254,7 +305,94 @@
 .blue {
   color: blue;
 }
+
 .rs1 {
   color: blue;
   font-size: 18px;
+}
+
+.news1 {
+  background-color: #00246B;
+  color: white;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.news2 {
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.topic {
+  color: white;
+  background-color: #00246B;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.mail {
+  height: 35px;
+}
+
+.phone {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  margin: 10px;
+  /* padding: 10px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding-top: 40px; */
+  /* justify-content: center; */
+
+}
+
+.lastbox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.table-container{
+  display: flex;
+  justify-content: center;
+}
+.room {
+  height: 50px;
+  width: 50px;
+}
+
+.phone {
+  background-color: white;
+}
+.RP {
+  color: black;
+  border: 2px solid black;
+  font-size: 16px; 
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.classid {
+ 
 }
